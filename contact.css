@@ -1,4 +1,4 @@
- * {
+* {
     font-family: 'Montserrat', sans-serif;
  }
  
@@ -16,7 +16,10 @@
     background: linear-gradient(black, #1e272e);
     position: absolute;
     width: 100%;
-}  
+
+ 
+    
+ }  
 
 .header {
      color: white;
@@ -38,13 +41,12 @@
     color: white;
 }
 
-
 h3 {
     color: white;
   
     width: 100px;  
     position: relative;
-    width: 790px;
+    width: 1100px;
     height: 30px;
     font-size: 26px;
     display: flex;
@@ -85,8 +87,3 @@ h1 {
 .navBar a:hover {
     color: white;
 }
-
-
-
-
-
