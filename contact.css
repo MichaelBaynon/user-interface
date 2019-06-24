@@ -41,6 +41,10 @@
     color: white;
 }
 
+.header a:hover{
+    color: grey;
+    }
+
 h3 {
     color: white;
   
