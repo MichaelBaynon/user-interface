@@ -97,7 +97,7 @@ h1 {
 @media (max-width: 800px) {
 
     #particles-js {
-        height: 140%;
+        height: 200%;
         background: linear-gradient(black, crimson);
         position: absolute;
         width: 167%
@@ -114,7 +114,7 @@ h1 {
       
    }
     
-h3 {
+.apology h3 {
     font-size: 40px;
   
     width: 1165px;
@@ -217,6 +217,73 @@ body {
     font-size: 110px;
 }
 
+}
+
+
+
+}
+
+@media (max-width: 1080px) {
+    #particles-js {
+        width: 1430px;
+    }
+
+
+.header {
+    
+    width: 1000px;
+        height: 200px;
+        font-size: 140px;
+        margin-left: 130px;
+}
+
+.apology h3 {
+    font-size: 40px;
+  
+    width: 1165px;
+    height: 100px;
+    margin-left: 65px;
+    padding-bottom: 90px;
+}
+
+h1{
+    font-size: 80px;
+    
+    width: 1160px;
+    height: 300px;
+    margin-left: 55px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 80px;
+    
+    width: 1200px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.navBar {
+    position: relative;
+ 
+    flex-direction: row;
+    height: 150px;
+    font-size: 35px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    width: 1300px;
+    color: white;
+}
+
+.navBar a {
+    color: white;
 }
 
 }
