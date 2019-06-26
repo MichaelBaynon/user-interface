@@ -39,6 +39,7 @@
 .header a {
     text-decoration: none;
     color: white;
+    transition: all 0.5s ease;
 }
 
 .header a:hover{
@@ -82,15 +83,116 @@ h1 {
     display: flex;
     justify-content: space-between; 
     width: 1200px;
+    transition: all 0.5s ease;
 }
 
 .contactUs a {
-    color: gray;
+    color: grey;
+    transition: all 0.5s ease;
 }
 
 .contactUs a:hover {
     color: white;
 }
+
+.dropdown {
+    position: relative;
+    color: black;
+    border: solid 1px black;
+    width: 100px;
+    display: flex;
+    margin-top: -570px;
+    margin-left: 370px;
+    background: white;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.5s ease
+}
+
+.dropdown:hover {
+    color: white;
+    background:  crimson;
+    cursor: pointer;
+    border: solid 1px white;
+}
+
+
+.dropdownFunction {
+    display: none;
+    position: absolute;
+    width: 59px;
+    background: white;
+    z-index: 1;
+    left:  0;
+    top: 52%;
+    
+    color: black;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    font-size: 14px;
+    
+    
+    
+}
+
+ .dropdownFunction:hover {
+   
+    background:  crimson;
+    cursor: pointer;
+    border-bottom: solid 1px white;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    
+    
+} 
+
+.dropdownFunction a:hover {
+    color: white;
+    
+}
+
+
+.dropdownFunction a {
+    padding-left: 0px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+#dropDownFunction.active {
+    display: block;
+}
+
+.loginButton {
+    position: absolute;
+    background: white;
+    border: black;
+    font-size: 17px;
+    padding: 18px 18px;
+    border-radius: 10px;
+    margin-left: 1600px;
+    margin-top: -40px;
+    transition: all 0.5s ease;
+}
+
+.loginButton a {
+    text-decoration: none;
+    color: black;
+}
+
+.loginButton:hover {
+    background: crimson;
+    color: white;
+    border: white;
+}
+
+.loginButton a:hover {
+    color: white;
+    border: white;
+}
+
+
+
 
 /* iPAD ////////////////// */
 
