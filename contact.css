@@ -2,35 +2,100 @@
     font-family: 'Montserrat', sans-serif;
  }
  
- .loginButton {
+ body {
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
     position: absolute;
-    background: white;
-    border: black;
-    font-size: 17px;
-    padding: 18px 18px;
-    border-radius: 10px;
-    margin-left: 1600px;
-    margin-top: -40px;
+    
+    width: 100%;
+}
+
+#particles-js {
+    height: 99.95%;
+    background: linear-gradient(black, crimson);
+    position: absolute;
+    width: 100%;
+
+ 
+    
+ }  
+
+.header {
+     color: white;
+    margin: 60px;
+    width: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 380px;
+    height: 50px;
+    font-size: 40px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between; 
+    text-decoration: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
     transition: all 0.5s ease;
 }
 
-.loginButton a {
-    text-decoration: none;
-    color: black;
-}
+.header a:hover{
+    color: grey;
+    }
 
-.loginButton:hover {
-    background: crimson;
+h3 {
     color: white;
-    border: white;
+  
+    width: 100px;  
+    position: relative;
+    width: 1100px;
+    height: 30px;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
-.loginButton a:hover {
+h1 {
     color: white;
-    border: white;
+    
+   justify-content: center;
+    position: relative;
+    width: 1200px;
+    height: 150px;
+    font-size: 55px;
+    display: flex;
+     padding: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
- .dropdown {
+.contactUs  {
+     padding: 40px; 
+    position: relative;
+    height: 50px;
+    font-size: 40px;
+   margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    width: 1200px;
+    transition: all 0.5s ease;
+}
+
+.contactUs a {
+    color: grey;
+    transition: all 0.5s ease;
+}
+
+.contactUs a:hover {
+    color: white;
+}
+
+.dropdown {
     position: relative;
     color: black;
     border: solid 1px black;
@@ -98,171 +163,44 @@
     display: block;
 }
 
- body {
-    margin: 0 ;
-    padding: 0;
-    height: 100vh;
+.loginButton {
     position: absolute;
-    
-    width: 100%;
+    background: white;
+    border: black;
+    font-size: 17px;
+    padding: 18px 18px;
+    border-radius: 10px;
+    margin-left: 1600px;
+    margin-top: -40px;
+    transition: all 0.5s ease;
 }
 
-#particles-js {
-    height: 99.95%;
-    background: linear-gradient(black, darkblue);
-    position: absolute;
-    width: 100%;
-
- 
-    
- }  
-
-.header {
-     color: white;
-    margin: 60px;
-    width: 100px;
-    margin-bottom: 100px;
-    position: relative;
-    width: 380px;
-    height: 50px;
-    font-size: 40px;
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between; 
+.loginButton a {
     text-decoration: none;
+    color: black;
 }
 
-.header a {
-    text-decoration: none;
+.loginButton:hover {
+    background: crimson;
     color: white;
-    transition: all 0.5s ease;
+    border: white;
 }
 
-.header a:hover{
-    color: grey;
-    }
-
-h3 {
+.loginButton a:hover {
     color: white;
-  
-    width: 100px;  
-    position: relative;
-    width: 1100px;
-    height: 30px;
-    font-size: 26px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 150px;
+    border: white;
 }
 
-h1 {
-    color: white;
-    
-   justify-content: center;
-    position: relative;
-    width: 1200px;
-    height: 150px;
-    font-size: 55px;
-    display: flex;
-     padding: 10px;
-    margin: 0 auto;
-    margin-top: 40px;
-}
-
-.navBar  {
-     padding: 40px; 
-     
-    position: relative;
-    height: 50px;
-    font-size: 35px;
-   margin: 0 auto;
-    display: flex;
-    justify-content: space-between; 
-    width: 1350px;
-    transition: all 0.5s ease;
-}
-
-.navBar a {
-    color: gray;
-    transition: all 0.5s ease;
-}
-
-.navBar a:hover {
-    color: white;
-}
-
-@media (max-width: 1080px) {
-    #particles-js {
-        width: 1430px;
-    }
 
 
-.header {
-    
-    width: 1000px;
-        height: 200px;
-        font-size: 140px;
-        margin-left: 130px;
-}
-
-h3 {
-    font-size: 40px;
-  
-    width: 1165px;
-    height: 100px;
-    margin-left: 65px;
-    padding-bottom: 0px;
-}
-
-h1{
-    font-size: 80px;
-    
-    width: 1160px;
-    height: 300px;
-    margin-left: 55px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.main {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    font-size: 80px;
-    
-    width: 1200px;
-    height: 300px;
-    margin-left: 50px;
-}
-
-.navBar {
-    position: relative;
- 
-    flex-direction: row;
-    height: 150px;
-    font-size: 35px;
-    justify-content: space-evenly;
-    margin-left: 20px;
-    width: 1300px;
-    color: white;
-}
-
-.navBar a {
-    color: white;
-}
-
-}
 
 /* iPAD ////////////////// */
 
 @media (max-width: 800px) {
 
     #particles-js {
-        height: 140%;
-        background: linear-gradient(black, darkblue);
+        height: 200%;
+        background: linear-gradient(black, crimson);
         position: absolute;
         width: 167%
     }  
@@ -278,7 +216,7 @@ h1{
       
    }
     
-h3 {
+.apology h3 {
     font-size: 40px;
   
     width: 1165px;
@@ -310,7 +248,7 @@ h1{
     margin-left: 50px;
 }
 
-.navBar {
+.contactUs {
     position: relative;
     flex-direction: column;
     height: 450px;
@@ -321,7 +259,7 @@ h1{
     color: white;
 }
 
-.navBar a {
+.contactUs a {
     color: white;
 }
 
@@ -368,7 +306,7 @@ body {
     padding: 20px;
 }
 
-.navBar {
+.contactUs {
     margin-top: 450px;
     width: 1230px;
     height: 800px;
@@ -377,11 +315,77 @@ body {
     margin-left: 20px;
 }
 
-.navBar a {
+.contactUs a {
     font-size: 110px;
 }
 
 }
 
+
+
 }
 
+@media (max-width: 1080px) {
+    #particles-js {
+        width: 1430px;
+    }
+
+
+.header {
+    
+    width: 1000px;
+        height: 200px;
+        font-size: 140px;
+        margin-left: 130px;
+}
+
+.apology h3 {
+    font-size: 40px;
+  
+    width: 1165px;
+    height: 100px;
+    margin-left: 65px;
+    padding-bottom: 90px;
+}
+
+h1{
+    font-size: 80px;
+    
+    width: 1160px;
+    height: 300px;
+    margin-left: 55px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 80px;
+    
+    width: 1200px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.navBar {
+    position: relative;
+ 
+    flex-direction: row;
+    height: 150px;
+    font-size: 35px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    width: 1300px;
+    color: white;
+}
+
+.navBar a {
+    color: white;
+}
+
+}
